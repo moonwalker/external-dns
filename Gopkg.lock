@@ -282,7 +282,7 @@
   branch = "master"
   name = "github.com/moonwalker/cloudflare-go"
   packages = ["."]
-  revision = "92988140918ea08615ac320fed30508eb76fb54b"
+  revision = "cfc900f178dbd860e801216f8a27d213eb4dfe71"
 
 [[projects]]
   name = "github.com/nesv/go-dynect"
@@ -628,6 +628,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d89f9a8553a926a70d1f0387c30826ecec04e7fc5d4d71a680f7101f72c9ca3d"
+  inputs-digest = "70ce04c41fee3d5668085fba00d37bfc33343efca13bb461d3cd50b08ffe93bf"
   solver-name = "gps-cdcl"
   solver-version = 1
