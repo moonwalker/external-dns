@@ -282,7 +282,7 @@
   branch = "master"
   name = "github.com/moonwalker/cloudflare-go"
   packages = ["."]
-  revision = "81e21350595afac81e0f457b0c96bd9eeb204883"
+  revision = "13c5098855d27705a604e5c76543c99c33ceebb7"
 
 [[projects]]
   name = "github.com/nesv/go-dynect"
