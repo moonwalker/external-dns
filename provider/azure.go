@@ -31,8 +31,8 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure"
 	"github.com/Azure/go-autorest/autorest/to"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
 )
 
 const (

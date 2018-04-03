@@ -22,8 +22,8 @@ import (
 	"strings"
 
 	ibclient "github.com/infobloxopen/infoblox-go-client"
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
 	"github.com/sirupsen/logrus"
 )
 

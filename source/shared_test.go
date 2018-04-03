@@ -19,7 +19,7 @@ package source
 import (
 	"testing"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 )
 
 // test helper functions

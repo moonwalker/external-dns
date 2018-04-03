@@ -21,9 +21,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubernetes-incubator/external-dns/plan"
-	"github.com/kubernetes-incubator/external-dns/registry"
-	"github.com/kubernetes-incubator/external-dns/source"
+	"github.com/moonwalker/external-dns/plan"
+	"github.com/moonwalker/external-dns/registry"
+	"github.com/moonwalker/external-dns/source"
 )
 
 // Controller is responsible for orchestrating the different components.

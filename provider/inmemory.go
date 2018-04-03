@@ -22,8 +22,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
 )
 
 var (

@@ -131,11 +131,11 @@ spec:
 
 ### I have a Service/Ingress but it's ignored by ExternalDNS. Why?
 
-TODO (https://github.com/kubernetes-incubator/external-dns/issues/267)
+TODO (https://github.com/moonwalker/external-dns/issues/267)
 
 ### I'm using an ELB with TXT registry but the CNAME record clashes with the TXT record. How to avoid this?
 
-TODO (https://github.com/kubernetes-incubator/external-dns/issues/262)
+TODO (https://github.com/moonwalker/external-dns/issues/262)
 
 ### Which permissions do I need when running ExternalDNS on a GCE or GKE node.
 

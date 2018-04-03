@@ -21,7 +21,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 )
 
 func generateTestEndpoints() []*endpoint.Endpoint {

@@ -30,7 +30,7 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/pkg/apis/extensions/v1beta1"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 )
 
 // ingressSource is an implementation of Source for Kubernetes ingress objects.

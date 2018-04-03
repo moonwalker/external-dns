@@ -20,8 +20,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/internal/testutils"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/internal/testutils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

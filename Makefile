@@ -46,10 +46,10 @@ verify: test
 
 BINARY        ?= external-dns
 SOURCES        = $(shell find . -name '*.go')
-IMAGE         ?= registry.opensource.zalan.do/teapot/$(BINARY)
+IMAGE         ?= 234817337601.dkr.ecr.eu-central-1.amazonaws.com/$(BINARY)
 VERSION       ?= $(shell git describe --tags --always --dirty)
 BUILD_FLAGS   ?= -v
-LDFLAGS       ?= -X github.com/kubernetes-incubator/external-dns/pkg/apis/externaldns.Version=$(VERSION) -w -s
+LDFLAGS       ?= -X github.com/moonwalker/external-dns/pkg/apis/externaldns.Version=$(VERSION) -w -s
 
 build: build/$(BINARY)
 

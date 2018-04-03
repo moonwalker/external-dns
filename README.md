@@ -5,9 +5,9 @@
 # ExternalDNS
 [![Build Status](https://travis-ci.org/kubernetes-incubator/external-dns.svg?branch=master)](https://travis-ci.org/kubernetes-incubator/external-dns)
 [![Coverage Status](https://coveralls.io/repos/github/kubernetes-incubator/external-dns/badge.svg?branch=master)](https://coveralls.io/github/kubernetes-incubator/external-dns?branch=master)
-[![GitHub release](https://img.shields.io/github/release/kubernetes-incubator/external-dns.svg)](https://github.com/kubernetes-incubator/external-dns/releases)
-[![go-doc](https://godoc.org/github.com/kubernetes-incubator/external-dns?status.svg)](https://godoc.org/github.com/kubernetes-incubator/external-dns)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kubernetes-incubator/external-dns)](https://goreportcard.com/report/github.com/kubernetes-incubator/external-dns)
+[![GitHub release](https://img.shields.io/github/release/kubernetes-incubator/external-dns.svg)](https://github.com/moonwalker/external-dns/releases)
+[![go-doc](https://godoc.org/github.com/moonwalker/external-dns?status.svg)](https://godoc.org/github.com/moonwalker/external-dns)
+[![Go Report Card](https://goreportcard.com/badge/github.com/moonwalker/external-dns)](https://goreportcard.com/report/github.com/moonwalker/external-dns)
 
 ExternalDNS synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
 
@@ -69,7 +69,7 @@ First, get ExternalDNS:
 **To install all dependencies, make sure to install [dep](https://github.com/golang/dep) first.**
 
 ```console
-$ git clone https://github.com/kubernetes-incubator/external-dns.git && cd external-dns
+$ git clone https://github.com/moonwalker/external-dns.git && cd external-dns
 $ dep ensure -vendor-only
 $ make
 ```
@@ -174,7 +174,7 @@ Here's a rough outline on what is to come (subject to change):
 * Support for TPRs
 * Support for more advanced DNS record configurations
 
-Have a look at [the milestones](https://github.com/kubernetes-incubator/external-dns/milestones) to get an idea of where we currently stand.
+Have a look at [the milestones](https://github.com/moonwalker/external-dns/milestones) to get an idea of where we currently stand.
 
 ## Contributing
 

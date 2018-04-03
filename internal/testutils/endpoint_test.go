@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 )
 
 func ExampleSameEndpoints() {

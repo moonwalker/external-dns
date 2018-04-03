@@ -17,7 +17,7 @@ limitations under the License.
 package plan
 
 import (
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 )
 
 // Plan can convert a list of desired and current records to a series of create,

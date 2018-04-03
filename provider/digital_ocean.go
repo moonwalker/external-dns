@@ -27,8 +27,8 @@ import (
 	"github.com/digitalocean/godo"
 	"github.com/digitalocean/godo/context"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
 )
 
 const (

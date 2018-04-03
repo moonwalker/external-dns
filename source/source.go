@@ -22,7 +22,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 )
 
 const (

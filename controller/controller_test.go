@@ -20,11 +20,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/internal/testutils"
-	"github.com/kubernetes-incubator/external-dns/plan"
-	"github.com/kubernetes-incubator/external-dns/provider"
-	"github.com/kubernetes-incubator/external-dns/registry"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/internal/testutils"
+	"github.com/moonwalker/external-dns/plan"
+	"github.com/moonwalker/external-dns/provider"
+	"github.com/moonwalker/external-dns/registry"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

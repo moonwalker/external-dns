@@ -19,7 +19,7 @@ package plan
 import (
 	"testing"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 	"github.com/stretchr/testify/suite"
 )
 

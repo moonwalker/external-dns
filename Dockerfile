@@ -15,7 +15,7 @@
 # builder image
 FROM golang as builder
 
-WORKDIR /go/src/github.com/kubernetes-incubator/external-dns
+WORKDIR /go/src/github.com/moonwalker/external-dns
 COPY . .
 RUN make dep
 RUN make test
@@ -25,6 +25,6 @@ RUN make build
 FROM registry.opensource.zalan.do/stups/alpine:latest
 MAINTAINER Team Teapot @ Zalando SE <team-teapot@zalando.de>
 
-COPY --from=builder /go/src/github.com/kubernetes-incubator/external-dns/build/external-dns /bin/external-dns
+COPY --from=builder /go/src/github.com/moonwalker/external-dns/build/external-dns /bin/external-dns
 
 ENTRYPOINT ["/bin/external-dns"]

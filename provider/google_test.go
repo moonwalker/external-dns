@@ -26,8 +26,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
 
 	"google.golang.org/api/googleapi"
 

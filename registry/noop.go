@@ -17,9 +17,9 @@ limitations under the License.
 package registry
 
 import (
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
-	"github.com/kubernetes-incubator/external-dns/provider"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
+	"github.com/moonwalker/external-dns/provider"
 )
 
 // NoopRegistry implements registry interface without ownership directly propagating changes to dns provider

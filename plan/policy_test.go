@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/endpoint"
 )
 
 // TestApply tests that applying a policy results in the correct set of changes.

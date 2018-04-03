@@ -98,12 +98,6 @@
   revision = "4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9"
 
 [[projects]]
-  name = "github.com/cloudflare/cloudflare-go"
-  packages = ["."]
-  revision = "4c6994ac3877fbb627766edadc67f4e816e8c890"
-  version = "v0.7.4"
-
-[[projects]]
   name = "github.com/coreos/go-oidc"
   packages = [
     "http",
@@ -285,6 +279,12 @@
   revision = "c12348ce28de40eed0136aa2b644d0ee0650e56c"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/moonwalker/cloudflare-go"
+  packages = ["."]
+  revision = "92988140918ea08615ac320fed30508eb76fb54b"
+
+[[projects]]
   name = "github.com/nesv/go-dynect"
   packages = ["dynect"]
   revision = "cdd946344b54bdf7dbeac406c2f1fe93150f08ea"
@@ -424,6 +424,12 @@
     "width"
   ]
   revision = "2910a502d2bf9e43193af9d68ca516529614eed3"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/time"
+  packages = ["rate"]
+  revision = "26559e0f760e39c24d730d3224364aef164ee23f"
 
 [[projects]]
   name = "google.golang.org/api"
@@ -622,6 +628,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "7af57b8d195abce34060c82b92243ddba947f5d882be8f9a08b1aa827a9061fa"
+  inputs-digest = "d89f9a8553a926a70d1f0387c30826ecec04e7fc5d4d71a680f7101f72c9ca3d"
   solver-name = "gps-cdcl"
   solver-version = 1

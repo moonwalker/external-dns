@@ -21,10 +21,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
 
-	cloudflare "github.com/cloudflare/cloudflare-go"
+	cloudflare "github.com/moonwalker/cloudflare-go"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

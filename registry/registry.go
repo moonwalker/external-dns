@@ -17,8 +17,8 @@ limitations under the License.
 package registry
 
 import (
-	"github.com/kubernetes-incubator/external-dns/endpoint"
-	"github.com/kubernetes-incubator/external-dns/plan"
+	"github.com/moonwalker/external-dns/endpoint"
+	"github.com/moonwalker/external-dns/plan"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -21,8 +21,8 @@ ignored = ["github.com/kubernetes/repo-infra/kazel"]
   version = "~1.8.20"
 
 [[constraint]]
-  name = "github.com/cloudflare/cloudflare-go"
-  version = "0.7.3"
+  name = "github.com/moonwalker/cloudflare-go"
+  branch = "master"
 
 [[constraint]]
   name = "github.com/digitalocean/godo"
@@ -63,3 +63,7 @@ ignored = ["github.com/kubernetes/repo-infra/kazel"]
 [[constraint]]
   name = "github.com/nesv/go-dynect"
   version = "0.6.0"
+
+[[constraint]]
+  branch = "master"
+  name = "golang.org/x/time"
